@@ -14,7 +14,7 @@
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Firstname Lastname's Resumé</title>
+    <title>Natalia Cardasova's Resumé</title>
   </head>
   <!-- End of the head -->
 
@@ -27,7 +27,7 @@
       The "my-sm-4" class adds a margin (m) vertical (y) at sizes small (-sm-) and above, of 4 x 6 pixels
       The "resume-container" class doesn't come from Bootstrap, you can use it for your own styles
     -->
-    <div class="container shadow-lg my-sm-4 resume-container">
+    <div class="container-fluid resume-container">
 
       <!--
         <header> is a semantic element: it works exactly like <div>, but it gives information about the role of the code below.
@@ -50,7 +50,7 @@
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
           <h1 class="fw-bolder">Natalia Cardasova</h1>
-          <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+          <h5 class="fst-italic tagline">Making your ideas come to life</h5>
         </div>
       </header>
 
@@ -84,13 +84,14 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Production Assistant, Production Company</h4>
-                  <h5>April&ndash;July 2019</h5>
+                  <h4>Intern, Emedi Productions</h4>
+                  <h5>2023&ndash;now</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
+                    <li>Screenwriting cooperation</li>
                     <li>Coordinated shootings in studio and on location</li>
-                    <li>Liaised with local authorities and with suppliers</li>
-                    <li>Part of my studies at Breda University of Applied Sciences</li>
+                    <li>Co-production of Just Imagine (TV series)</li>
+					<li>Extracurricular activity</li>
                   </ul>
                 </div>
               </li>
@@ -100,14 +101,8 @@
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Restaurant employee</h4>
-                  <h5>2018</h5>
+				  </div>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
-                </div>
-              </li>
-
             </ul>
           </section>
 
@@ -124,12 +119,12 @@
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
                   <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
-                  <h5>2018&nbsp;&ndash;&nbsp;now</h5>
+                  <h5>2022&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
-                    <li>Member of the student participation council</li>
-                    <li>Minor in resilient entrepreneurship</li>
-                    <li>Exchange with Bournemouth University</li>
+                    <li>I did things</li>
+                    <li>Fast track</li>
+                    <li>No exchange, no money</li>
                   </ul>
                 </div>
               </li>
@@ -140,10 +135,10 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>High School Diploma, City High School</h4>
-                  <h5>2018</h5>
+                  <h4>High School Diploma, Andrej Kmet Gymnasium</h4>
+                  <h5>2017&nbsp;&dash;&nbsp;now</h5>
                   <ul class="biography-details list-unstyled">
-                    <li>Audiovisual media specialization</li>
+                    <li>Red Cross volunteer</li>
                   </ul>
                 </div>
               </li>
@@ -205,7 +200,7 @@
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Dutch</h5>
+                <h5 class="language-name w-50">Slovak</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
@@ -224,8 +219,8 @@
                 <h5 class="language-name w-50">Spanish</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
@@ -236,6 +231,11 @@
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
+			  <li class="language-item d-flex mb-1">
+				<h5 class="language-name w-50">Korean</h5>
+				<div class="language-level w-50 border border-info border-2 position-relative">
+				  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+				  <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
             </ul>
           </section>
 
@@ -255,8 +255,11 @@
           <section class="my-3 aside-section">
             <h2>Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">Volleyball</li>
+              <li class="skill-item">Rollerblading</li>
+			  <li class="skill-item">Baking</li>
+			  <li class="skill-item">Horseback riding</li>
+			  <li class="skill-item">Language learning</li>
             </ul>
           </section>
 
