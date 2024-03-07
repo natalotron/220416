@@ -47,7 +47,7 @@ body {
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
-	display: table-column;
+	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
 	
