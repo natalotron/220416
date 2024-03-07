@@ -17,6 +17,13 @@ body {
     background-color: #151517;
 }
 
+.ojuju- uniquifier {
+  font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300 ;
+  font-style: normal;
+}
+
 .resume-main {
 	background-color: #757578;
 }
