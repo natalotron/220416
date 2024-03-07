@@ -14,11 +14,20 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #151517;
+    background-color: #fffefc;
+	color: #C14B4D;
 }
 
-.ojuju- uniquifier {
+.ojuju {
   font-family: "Ojuju", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300 ;
+  font-style: normal;
+}
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 300 ;
   font-style: normal;
@@ -30,6 +39,7 @@ body {
 
 .resume-aside {
 	background-color: #2f2f30;
+	color: #fffefc;
 }
 
 /* Styles for lists in the document */
@@ -37,9 +47,14 @@ body {
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
-	display: inline-block;
+	display: table-column;
 	width: 1em;
 	margin-left: -1em;
+	
+}
+
+.language-progress {
+    background-color: #C14B4D;
 }
 
 .biography-details li::before {
