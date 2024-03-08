@@ -50,12 +50,35 @@ body {
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
-	
-}
+	}
 
-.language-progress {
-    background-color: #C14B4D;
+.language-bar {
+	color:#fffefc;
+	background-color:#757578;
+	position: absolute;
+	border: 4px #2f2f30;
+	}
+
+.progress-bar100 {
+	height:100%;
+	width:100%;
+	background: #C14B4D; 
+	}
+.progress-bar75 {
+	height: 100%;
+	width:100%;
+	background: linear-gradient(to right, #C14B4D 75%, #757578 75%);
 }
+.progress-bar50{
+	height: 100%;
+	width:100%;
+	background: linear-gradient(to right, #C14B4D 50%, #757578 50%);
+}
+.progress-bar25{
+	height: 100%;
+	width:100%;
+	background: linear-gradient(to right, #C14B4D 25%, #757578 25%);
+	}
 
 .biography-details li::before {
 	color: #4a4947;
